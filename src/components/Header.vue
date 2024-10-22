@@ -1,6 +1,14 @@
 <script setup lang="ts">
-// Lógica del componente Header aquí
+import { useRouter } from 'vue-router'
+
+const router = useRouter();
+
+const navigateToHome = () => {
+  router.push('/')
+}
 </script>
+
+
 
 <template>
   <header>

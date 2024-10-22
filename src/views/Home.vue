@@ -16,7 +16,6 @@ import Footer from '../components/Footer.vue'
       <Features />
       <UseCases />
       <Testimonials />
-      <Download />
     </main>
     <Footer />
   </div>
